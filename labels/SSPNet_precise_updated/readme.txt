@@ -2,7 +2,7 @@ Corrected (more precise overlap/non-overlap) labels for a small number of files 
 
 Files were adjusted with a focus on more precise overlap/non-overlap labelling, not speaker identity -> some speaker labels may be incorrect.
 
-This is an updated version of the labels, with improved labels for file 06-11-08_1290_1320 (corrected a few instances of wrong speaker identity, better labels for overlaps with 3+ speakers). For the initial version that was used in the SPECOM 2019 paper, see ../SSPNEt_precise_SPECOM2019.
+This version of the labels is currently identical to the one that was used in the SPECOM 2019 paper, but may be updated in the future. For the frozen SPECOM version, see ../SSPNEt_precise_SPECOM2019.
 
 ---
 
