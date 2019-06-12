@@ -8,4 +8,15 @@ M. Kunešová, M. Hrúz, Z. Zajíc, V. Radová: "Detection of Overlapping Speech
 
 
 ## TODO
-- Clean up and add all the missing code
+- Clean up and add all the missing code:
+
+  Added:
+    - Python code for the overlap detector itself
+    - MATLAB code for creating artificial overlap data (wavs + reference)
+    
+  Still Missing:
+    - Scripts for preparing training data for the OL detector (wav -> h5)
+    - Scripts for evaluation
+    
+    
+- Resolve external dependencies
