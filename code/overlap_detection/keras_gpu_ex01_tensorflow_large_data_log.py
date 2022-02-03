@@ -77,7 +77,7 @@ text_file = open(args.net_name + '_filenames.txt', 'w')
 json_string = model.to_json()
 open(args.net_name + '_architecture.json', 'w').write(json_string)
 
-h5files = os.listdir(args.h5_file_path)
+h5files = os.listdir(args.h5_dir_path)
 f_list = []
 for h5f in h5files:
     if h5f.endswith('.h5'):
@@ -94,7 +94,7 @@ for i in range(args.max_epoch):
 
     print(h5)
 
-    f = h5py.File(os.path.join(args.h5_file_path, h5), 'r')
+    f = h5py.File(os.path.join(args.h5_dir_path, h5), 'r')
     dX = f['spektro'][()]
     dY = f['label'][()]
 
